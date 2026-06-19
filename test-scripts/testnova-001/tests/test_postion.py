@@ -1,6 +1,5 @@
 import pytest
 from pages.postion_page import PostionPage
-
 def test_postion(page, screenshot_dir, base_url, test_username, test_password):
     test_page = PostionPage(page, screenshot_dir)
     test_page.navigate(base_url)
